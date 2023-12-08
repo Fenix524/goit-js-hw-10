@@ -1,6 +1,6 @@
 import axios from 'axios';
 // MY_KEY = "live_ZKly88AXk1 HvdgjfHbJy6ghbyTJ0T3KvgWB8pTkRtUlVrsrikcNkip8eK9xwmVcL";
-MY_KEY = "live_OTkuyK434vK48ClwOqQVxJn0ctUWbmCerq456VEfWSDnTPVVmzQyNHgkUGJIFoqW";
+const MY_KEY = "live_OTkuyK434vK48ClwOqQVxJn0ctUWbmCerq456VEfWSDnTPVVmzQyNHgkUGJIFoqW";
 axios.defaults.headers.common['x-api-key'] = MY_KEY;
 
 const instance = axios.create({
